@@ -1,0 +1,3 @@
+"Node.JS Basico" 
+
+Este repositorio contiene una serie de prácticas fundamentales para iniciarse en Node.js. Se abordan conceptos clave como EventEmitter, manejo de peticiones HTTP, manipulación de archivos con filesystem, gestión de rutas con path y obtención de información del sistema con os. Ideal para quienes desean afianzar su comprensión de Node.js y comenzar a construir aplicaciones de servidor.
