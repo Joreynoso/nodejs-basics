@@ -9,19 +9,17 @@ y fácil de usar.
 
 */
 
-// --> Importar http
 import http from 'http';
 
-// --> Creando servidor
+const hostname = '127.0.0.1';
+const port = 3000;
+
 const server = http.createServer((req, res) => {
-
-    res.writeHead(200, 'content-type', 'text/plain');
-    res.end('Hola Mundo Node.js');
-
+    res.statusCode = 200;
+    res.setHeader('Content-type', 'text/plain');
+    res.end('Hola Mundo\n');
 });
 
-server.listen(3000, () => {
-    
-    console.log('Servidor en http://localhost:3000');
-
-})
+server.listen(port, hostname, () => {
+    console.log('servidor Corriendo');
+});
